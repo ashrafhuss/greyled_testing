@@ -1,0 +1,303 @@
+@media(max-width:1880px) {
+}
+
+@media(max-width:1780px) {
+}
+
+@media(max-width:1680px) {
+}
+
+@media(max-width:1560px) {
+   
+}
+
+@media(max-width:1480px) {
+    .main_title { 
+        font-size: 48px;
+        line-height: 55px;
+        color: #000000;
+    }
+    .search_input_wrap {
+        max-width: 399px;
+        flex: 0 0 399px; 
+    }
+    .welcome_wrap {
+        padding-left: 50px; 
+    }
+}
+
+@media(max-width:1367px) {
+    .welcome_wrap {
+        padding-left: 21px;
+    }
+    .theme_para_se,
+    .theme_para { 
+        font-size: 16px;
+    }
+    .list_style li { 
+        font-size: 16px;
+    }
+    .mini_heading { 
+        font-size: 20px; 
+    }
+    .sub_heading { 
+        font-size: 29px;  
+    }
+    .box_detail {
+        padding: 12px 8px 9px 13px;
+    }
+    .Create-custom-schedule.choices_option ul {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+    .user_name { 
+        font-size: 44px;  
+    }
+    .custom_select select.form-control { 
+        font-size: 44px; 
+        line-height: 54px;
+    }
+}
+
+@media(max-width:1280px) {
+    .Contents_tabs .nav-tabs .nav-item .nav-link{
+        font-size: 11px;
+            margin-right: 7px;
+    }
+}
+
+@media(max-width:1199px) {
+    .search_input_wrap {
+        max-width: 350px;
+        flex: 0 0 350px;
+    }
+    .order_3 {
+        order: 3;
+    }
+    .order_1 {
+        order: 1;
+    }
+    .order_2 {
+        order: 2;
+    }
+    .search_input_wrap {
+        max-width: calc(100% - 217px);
+        flex: 0 0 100%; 
+    }
+    .search_wrap{
+        margin-top: 20px;
+    }
+    .welcome_wrap {
+        padding-left: 0px;
+    }
+    .pt-100 {
+        padding-top: 35px;
+    }
+    .main_content {
+        margin-top: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .pr-50 {
+        padding-right: 0;
+    }
+    .main_title {
+        font-size: 42px;
+        line-height: 49px;
+        color: #000000;
+    }
+    .sec_heading { 
+        font-size: 31px;
+        line-height: 30px; 
+    }
+}
+
+@media(max-width:991px) {
+    .custom_nav .nav-tabs .nav-item .nav-link { 
+        font-size: 11px;
+        line-height: 17px; 
+        padding-top: 5px;
+        padding-bottom: 7px; 
+    }
+    .page_nation ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .page_nation {
+        flex-direction: column;
+        padding: 9px;
+    }
+    .page_nation h6 { 
+        display: block;
+        text-align: left;
+        display: flex;
+        --primary-color-r: auto;
+        margin-left: 0 !IMPORTANT;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .pr-50 {
+        padding-right: 0;
+    }
+}
+
+@media(max-width:768px) {
+    .custom_select select.form-control {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .sub_heading {
+        font-size: 23px;
+    }
+    .inner_header {
+        padding: 9px 0px;
+    }
+    .form-control { 
+        padding: 9px 0px;
+        min-height: 45px; 
+        font-size: 15px;
+        line-height: 24px; 
+        margin-bottom: 9px;
+        background-color: transparent;
+    }
+    .select_option_wrap .select_option { 
+        font-size: 15px; 
+        margin-bottom: 9px;
+        padding: 9px 0px;
+        min-height: 45px;
+    }
+    .btn_black_theme {
+        max-width: 100%;
+        min-height: 50px; 
+        font-size: 17px;
+        line-height: 24px; 
+    }
+    .footer_bottom { 
+        width: 100%;
+        text-align: center;
+    }
+    .main_title {
+        font-size: 37px;
+        line-height: 42px;
+        color: #000000;
+        text-align: center;
+    }
+    .left_side_bar { 
+        padding: 16px 6px;
+    }
+    .section_class h3 span { 
+        width: 48px;
+        margin-right: 15px;
+    }
+    .btn_link { 
+        font-size: 12px;
+    }
+    .custom_tabs_chapater .accordion-button { 
+        margin: 7px 0;
+        font-size: 14px;
+    }
+    .Contents_tabs .nav-tabs .nav-item .nav-link { 
+        margin-right: 7px;
+    }
+    .deatils_section_info ul li { 
+        font-size: 14px;
+        line-height: 24px; 
+    }
+    .deatils_section_info {
+        padding: 12px 19px; 
+        border-radius: 4px;
+    }
+    .deatils_section_info {
+        margin-bottom: 10px;
+    }
+    .add_btn_wrap .btn_Add {
+        height: 52px;
+        font-size: 14px;
+    }
+    .linke_copy_box {
+        height: 74px; 
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .theme_para_se, .theme_para {
+        font-size: 14px;
+    }
+    .list_style li {
+    font-size: 14px;
+}
+}
+
+@media(max-width:575px) {
+    .Create-custom-schedule ul li {
+        margin: 7px  1px 0px 0px; 
+    }
+    .Create-custom-schedule ul li .custom-checkbox+label { 
+        width: 34px;
+        height: 34px; 
+        font-size: 14px; 
+    }
+    .Schedule_list li a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 11px 12px;
+        border-radius: 2px;
+        width: 100%;
+        height: 41px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #2E2E2D;
+        text-decoration: none;
+    }
+    
+    .custom_container {
+        max-width: 1728px; 
+        padding: 0 15px;
+    }
+    .search_wrap { 
+        flex-direction: column;
+    }
+    .search_input_wrap {
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        margin-right: 0 !IMPORTANT;
+    }
+    .icon_with_button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 99%;
+        margin-top: 10px;
+    }
+    .section_class_inner {
+        display: flex;
+         align-items: start; 
+        justify-content: start;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:480px) {
+}
+
+@media(max-width:376px) {
+    .custom_nav .nav-tabs .nav-item .nav-link {
+        font-size: 10px;
+        line-height: 17px;
+        padding-top: 5px;
+        padding-bottom: 7px;
+        padding-top: 5;
+        padding-right: 13px;
+        padding-left: 8px;
+    }
+}
