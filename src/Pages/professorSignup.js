@@ -23,7 +23,12 @@ function ProfessorSignup() {
 
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
-
+  useEffect(() => {
+    const token = storage.get('xAuthToken');
+    if(token){
+      navigate('/', {replace: true})
+    }
+  }, [])
   const { values, errors, touched, handleBlur, handleChange, handleSubmit } =
     useFormik({
       initialValues: initialValues,

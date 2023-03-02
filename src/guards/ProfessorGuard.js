@@ -2,14 +2,16 @@ import React from "react";
 import { Navigate } from 'react-router-dom'
 const authGuard = (Element) => {
     return (props) => {
-      console.log("props in guard", props);
         const token = localStorage.getItem("xAuthToken");
-        const user = localStorage.getItem("user");
-
+        let user = localStorage.getItem("user");
+        user = JSON.parse(user);
         if (token && user) {
-            return <Element {...props}/> ;
+            if (user.role === 'STUDENT') {
+                console.log(true);
+            }
+            return <Element /> ;
         } else {
-            return <Navigate to = "/studentSignup" />
+            return <Navigate to = "/studentSignup" / >
         }
     };
 };

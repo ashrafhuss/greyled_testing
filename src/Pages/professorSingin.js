@@ -22,6 +22,12 @@ function ProfessorSignin(props) {
 
 
   const dispatch = useDispatch();
+  useEffect(() => {
+    const token = storage.get('xAuthToken');
+    if(token){
+      navigate('/', {replace: true})
+    }
+  }, [])
 
   //loader
   const [loading, setLoading] = useState(false);

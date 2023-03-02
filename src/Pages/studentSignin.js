@@ -22,6 +22,12 @@ let verifyLink, resetLink, profileSettings;
 function StudentSignin(props) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+useEffect(() => {
+  const token = storage.get('xAuthToken');
+  if(token){
+    navigate('/', {replace: true})
+  }
+}, [])
 
   //loader
   const [loading, setLoading] = useState(false);
@@ -46,12 +52,13 @@ function StudentSignin(props) {
           setLoading(false);
           //toast.success("Welcome!!");
           action.resetForm();
-          navigate("/createClass", { replace: true });
+          navigate("/", { replace: true });
           if (!emailVerified) {
             if (verifyLink) verifyLink.click();
           }
           setErrorMessage({ type: "danger", message: "" });
-          props.history.replace("/");
+          // props.history.replace("/");
+          // navigate("/studentSignin", { replace: true });
         },
         onError: (err) => {
           if (err.response && err.response.data && err.response.data.message) {

@@ -16,7 +16,8 @@ const initialValues = {
   endDate: "",
 };
 
-function CreateClass() {
+function CreateClass(props) {
+  console.log(".-------->>>>",props);
   //Create new section States
   const [spnNo, setSpnNo] = useState("");
   const [sectionNo, setSectionNo] = useState("");
